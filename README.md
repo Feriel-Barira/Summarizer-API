@@ -16,14 +16,28 @@ Une API REST légère développée avec Node.js permettant de résumer automatiq
 ### 📁 Prérequis
 
 - Node.js >= 14
-- npm ou yarn
+- npm 
 - Un compte Hugging Face (https://huggingface.co)
 - Un token d’accès Hugging Face
-
+  
 ### 🔧 Installation
 
 1. Clone le dépôt :
 
 ```bash
-git clone https://github.com/<ton-utilisateur>/summarizer-api.git
-cd summarizer-api
+git clone https://github.com/Feriel-Barira/Summarizer-API.git
+```
+2. Installe les dépendances :
+```bash
+npm install
+```
+3. Crée un fichier .env :
+```bash
+PORT=3000
+HF_API_KEY=your_huggingface_token
+```
+4. Démarre le serveur :
+```bash
+node app.js
+```
+
